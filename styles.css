@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+      100deg,
+      rgba(40, 50, 158, 0.8),
+      rgba(100, 136, 206, 0.8)
+    ),
+    url("https://taikai.azureedge.net/HRttJN4PDQY9MYa1aKec8-3VdzSj9xeBpiFnf1dE_6Q/rs:fit:800:0:0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3RhaWthaS1zdG9yYWdlL2ltYWdlcy84ZmIwNzVmMC0xYjliLTExZWMtYjZjMy03ZjVjNGNhNGZiNjFkYW5pYWwtaWdkZXJ5LUZDSGxZdlI1Z0pJLXVuc3BsYXNoLmpwZw");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+#title {
+  margin-top: 50px;
+}
+
+#survey-form {
+  width: 650px;
+  margin: 0 auto;
+  text-align: left;
+  /* border: 5px solid #fb7185; */
+  border-radius: 1em;
+  padding: 40px;
+  box-sizing: border-box;
+  background: rgba(126, 34, 206, 0.7);
+}
+
+.label-no-block {
+  display: inline;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  padding: 10px 0;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#feature {
+  width: 95%;
+  padding: 10px;
+  border-radius: 0.4em;
+  font-size: 1.1em;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+#submit {
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: none;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #1d4ed8;
+  color: white;
+  transition: width 0.2s linear;
+}
+
+#submit:hover {
+  cursor: pointer;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 1.1em;
+  border-radius: 0.5em;
+}
+
+.radio-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.small {
+  font-size: 0.7em;
+}
+
+#title {
+  font-size: 3.5em;
+  font-family: cursive;
+}
